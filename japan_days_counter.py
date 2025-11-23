@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 from matplotlib.dates import DateFormatter, DayLocator
 
-CSV_FILE = "japantrips.csv"
+CSV_FILE = "filename.csv"
 MAX_DAYS = 180  # Maximum allowed days in Japan per 365-day window
 
 def load_trips(csv_file):
